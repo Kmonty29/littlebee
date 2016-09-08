@@ -1,394 +1,190 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Kristian Montogmery-Brown</title>
+    <title>Human Resrouce Help Pages</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
-    <script src="assets/js/Chart.js"></script>
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
+</head>
 
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
+<body>
 
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">HR Resource Pages</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About The Team</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Benefits</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Requesting Time Off</a>
+                    </li>
+                   
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
-	
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Kristian E. Montgomery-Brown</h1>
-					<h3> Impressive Job | kmontgo9@emich.edu </h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-	
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+	    <li data-target="#myCarousel" data-slide-to="3"></li>
 
-	<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p>I am a student programmer looking for a job to help me develop and hone my skills.</p>
-				</div>
-				<div class="col-lg-3">
-					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
-				</div>
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
+        </ol>
 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/foreseelogo.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Act With Certainty</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+ 	   <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Four');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 4</h2>
+                </div>
 
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
+        </div>
 
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Bachelor of Science</t><br/>
-						Eastern Michigan University <br/>
-						<i> Computer Science, Psychology & Neuroscience</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>GRADUATING IN MAY 2017</sm><br/>
-					<imp><sm>IN PROGRESS</sm></imp>
-					</p>
-				</div>
-	
-				
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--WORK DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
 
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>WORK</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Programmer</t><br/>
-						Eastern Michigan Neuroscience Department <br/>
-					</p>
-					<p><more>Used Spike2 Script Languge to make scripts for the analyzing and reading of data. Worked directly with laboratory manager to learn about the Spike2 hardware. </more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JANUARY 2016 - CURRENT</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Coordinator</t><br/>
-						CollabFeature <br/>
-					</p>
-					<p><more>Coordinated, planned and oversaw meetings with produceres from around the world. Hired, trained, and tasked interns and productions assistnats. Helped set up film shoots and organize actor auditions.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2013 - JULY 2014</sm></p>
-				</div>
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
+    <!-- Page Content -->
+    <div class="container">
 
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to the HR Webpage!
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Health Benefits</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </divO
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> 401K/Pension </h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Time Off</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
 
-	<!--AWARDS DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>AWARDS</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Women's Commission Scholaship</t><br/>
-						Eastern Michigan University <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SEPTEMBER 2013</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Sarns and Richard Norma Scholarship</t><br/>
-				<div class="col-lg-3">
-					<p><sm>SEPTEMBER 2013</sm></p>
-				</div>
-		
-		</div><!--/.row -->
-		<br>
-	</div><!--/.container -->
-	
-	
-	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Javascript</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Bootstrap</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Wordpress</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 65,
-										color:"#1abc9c"
-									},
-									{
-										value : 35,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>HTML/CSS</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>Photoshop</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>Illustrator</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+   
 
-			</div><!--/.row -->
-			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+        <hr>
 
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; HR RESOURCE SITE</p>
+                </div>
+            </div>
+        </footer>
 
+    </div>
+    <!-- /.container -->
 
-	<section id="work" name="work"></section>
-	<!--PORTFOLIO DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PORTFOLIO</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-					<p>CANALS OF ENGLAND</p>
-				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-					<sm><i class="icon-tag"></i> design</sm></more> 
-				</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>SANKEY</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						<sm><i class="icon-tag"></i> front-end</sm></more> 
-					</p>
-				</div>
-				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/port03.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>WE GROW</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						<sm><i class="icon-tag"></i> web design</sm></more> 
-					</p>
-				</div>
-		
-		</div><!--/.row -->
-		<br>
-		<br>
-	</div><!--/.container -->
-	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-	<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
-		<div class="container">
-			<div class="row">
-			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						kmontgo9@emich.edu <br/>
-					</p>
-					<p><t>Adress</t><br/>
-						Some Ave. 987 <br/>
-						Postal 23892 <br/>
-						London, England. <br/>
-					</p>
-					<p><t>Phone</t><br/>
-						+55 8933-2383 <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SOCIAL LINKS</sm></p>
-					<p>
-						<a href="#"><i class="icon-dribbble"></i></a>
-						<a href="#"><i class="icon-twitter"></i></a>
-						<a href="#"><i class="icon-facebook"></i></a>
-						<a href="#"><i class="icon-linkedin"></i></a>
-						<a href="#"><i class="icon-apple"></i></a>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
-					</p>
-				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
-		
-		</div>
-	</div>
-	
+</body>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
-  </body>
 </html>
